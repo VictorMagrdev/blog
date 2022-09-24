@@ -17,12 +17,10 @@ blog({
     url: "avataars.svg",
     twitterCard:  "summary_large_image" 
   },
-   // localised format based on https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat
   middlewares: [
     ga("UA-XXXXXXXX-X"),
     redirects({
       "/foo": "/my_post",
-      
       "bar": "my_post2",
     }),
   ],
