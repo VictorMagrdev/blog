@@ -12,12 +12,17 @@ blog({
     { title: "Linkedin", url: "https://www.linkedin.com/in/victor-gomez-089608250" },
   ],
   lang: "en",
+  favicon: "favicon.ico",
+  ogImage: {
+    url: "avataars.svg",
+    twitterCard:  "summary_large_image" 
+  },
    // localised format based on https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat
   middlewares: [
     ga("UA-XXXXXXXX-X"),
     redirects({
       "/foo": "/my_post",
-      // you can skip leading slashes too
+      
       "bar": "my_post2",
     }),
   ],
