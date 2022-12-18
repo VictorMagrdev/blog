@@ -1,6 +1,6 @@
 ---
 title: anagrama
-publish_date: 2022-1
+publish_date: 2022-12-17
 ---
 ---
 
